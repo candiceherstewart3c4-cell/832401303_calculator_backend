@@ -4,6 +4,8 @@ Node.js HTTP API for safe expression evaluation and persistent calculation histo
 
 Course: EE308FZ. FZU student ID: 832401303. MUID: 241215237.
 
+Companion repository: [Clover Calc Frontend](https://github.com/candiceherstewart3c4-cell/832401303_calculator_frontend).
+
 ## Stack and requirements
 
 - Node.js 22.13 or newer (uses the built-in `node:sqlite` module)

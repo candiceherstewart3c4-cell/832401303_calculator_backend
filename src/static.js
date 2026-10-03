@@ -3,7 +3,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
-const allowed = /^\/(?:index\.html|assets\/[\w.-]+\.(?:svg|png)|scripts\/(?:config|calculator)\.js|styles\/(?:main|enhancements)\.css)$/;
+const allowed = /^\/(?:index\.html|assets\/[\w.-]+\.(?:svg|png)|scripts\/(?:config|calculator|number-format)\.js|styles\/(?:main|enhancements)\.css)$/;
 const mimeTypes = {
   '.html': 'text/html; charset=utf-8',
   '.js': 'text/javascript; charset=utf-8',
